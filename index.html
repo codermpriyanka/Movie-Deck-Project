@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="h1">Movie Deck</h1>
+    </header>
+    <section class="sectionSearch">
+      <form class="movieSearch">
+        <input type="text" placeholder="Search By Name" />
+        <button>Search</button>
+      </form>
+      <div>
+        <button id="sortBydate">Sort by date (oldest to latest)</button>
+        <button id="sortByRate">Sort by rating (least to most)</button>
+      </div>
+    </section>
+
+    <section class="movieDisplaySection">
+      <div class="movieCostm">
+        <button id="showAll">All</button>
+        <button id="showFavorites">Favorites</button>
+      </div>
+
+      <section class="movieList" id="movieListCard">
+        <!-- <div class="card">
+                <img src="" alt="asdfghjkl">
+                <div class="detail">
+                    <div class="movieDetales">
+                        <span>movie title</span>
+                        <div class="voterate">
+                            <span>votes</span>
+                            <span>rating</span>
+                        </div>
+                    </div>
+                    <span class="icon">icon</span>
+                </div>
+            </div> -->
+      </section>
+
+      <div class="pagination">
+        <button id="prvBtn">Previous</button>
+        <button>Current Page</button>
+        <button id="nextBtn">Next</button>
+      </div>
+      <footer class="footer">
+        <div class="footer-content">
+          <p>© 2024 Movie Deck. All rights reserved.</p>
+          <ul class="footer-links">
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+      </footer>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
