@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: black;
+  font-family: "Roboto", Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.header {
+  font-size: 1.5rem;
+  padding: 0.1rem;
+  background: rgb(5, 234, 242);
+  text-align: center;
+}
+.sectionSearch {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.sectionSearch > * {
+  margin: 1rem 0;
+}
+.movieList {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* movie card */
+.card {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 1rem;
+  background: rgb(56, 53, 53);
+  color: #fff;
+  border: 2px solid rgb(5, 234, 242);
+  border-radius: 5px;
+  height: 300px;
+  width: 200px;
+}
+.card > img {
+  height: 10rem;
+  width: 1;
+}
+.movieDetales {
+  display: flex;
+  flex-direction: column;
+  width: 8rem;
+  height: 200px;
+  /* background: lightcoral; */
+}
+span {
+  height: 80px;
+  padding: 10px 5px;
+}
+.detail {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.detail > * {
+  height: inherit;
+}
+.voterate {
+  padding: 5px 20px;
+  /* background: palegreen; */
+}
+/* .icon{
+    line-height: 5;
+  display: inline-block;
+  vertical-align: middle;
+} */
+.pagination {
+  display: flex;
+  justify-content: center;
+}
+
+button,
+input {
+  border-radius: 10px;
+  font-size: 1rem;
+  margin: 0 1rem;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.footer {
+  background-color: rgb(5, 234, 242);
+  padding: 15px 0;
+  text-align: center;
+  margin-top: 50px;
+}
